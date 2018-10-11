@@ -1,0 +1,23 @@
+{
+    "name": "Slideshow",
+    "version": "1.0",
+    "description": "Imgur Slideshow",
+    "manifest_version": 2,
+    "permissions": ["activeTab", "declarativeContent"],
+    "icons": {
+      "16": "images/dog16.png",
+      "32": "images/dog32.png",
+      "48": "images/dog32.png",
+      "128": "images/dog32.png"
+    },
+    "page_action": {
+      "default_icon": {
+        "16": "images/dog16.png",
+        "32": "images/dog32.png",
+        "48": "images/dog32.png",
+        "128": "images/dog32.png"  
+      }
+    },
+    "background": {
+      "scripts": ["script.js"]    }
+}
